@@ -1,0 +1,13 @@
+server:
+  port: 80
+spring:
+  datasource:
+    driver-class-name: 'com.mysql.cj.jdbc.Driver  '
+    password: Blue60ab
+    url: 'jdbc:mysql://localhost:3306/MYPROJECT   '
+    username: 'root    '
+  jpa:
+    database-platform: 'MySQL8Dialect  '
+    hibernate:
+      ddl-auto: create
+    show-sql: true
